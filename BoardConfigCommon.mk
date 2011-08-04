@@ -1,4 +1,5 @@
 USE_CAMERA_STUB := false
+BOARD_HAS_LGE_FFC := true
 
 # inherit from the proprietary version
 -include vendor/lge/star-common/BoardConfigVendor.mk
@@ -50,7 +51,6 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 TARGET_RECOVERY_PRE_COMMAND := "/system/bin/setup-recovery"
 
 BOARD_USES_HW_MEDIARECORDER := true
-BOARD_USES_HW_MEDIASCANNER := true
 BOARD_USES_HW_MEDIAPLUGINS := true
 
 BOARD_USE_SCREENCAP := true
